@@ -1,0 +1,14 @@
+.secao__botao{
+    width: 50%;
+    margin:auto;
+    padding: 15px;
+    background: #ef666e;
+    color:#f1e7e6;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.secao__botao:hover{
+    cursor:pointer;
+}

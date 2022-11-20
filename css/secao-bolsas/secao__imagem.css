@@ -1,0 +1,10 @@
+.secao__imagem{
+    width:295px;
+    height: 250px;
+    margin:auto;
+    cursor:pointer;
+}
+
+.secao__imagem:before{
+    background: url('')
+}

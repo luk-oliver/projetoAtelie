@@ -1,0 +1,11 @@
+.secao1{
+   background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    padding: 1rem;
+    width: 300px;    
+   
+   
+   
+}

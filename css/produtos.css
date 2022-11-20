@@ -1,0 +1,32 @@
+*{
+    font-family:'Pacifico', cursive;
+    border: 0px;
+    padding: 0px;
+}
+
+body,html{
+    width:100vw;
+    height: 100vh;
+
+}
+
+body{
+    background: radial-gradient(#fee35e, #5ec0d9, #ef666e);
+}
+
+
+.cabecalho__produto{
+    background-color: #ef666e;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo__imagem{
+    background-image: url('../imagem/logo12.png');
+    background-repeat: no-repeat;
+    width:480px;
+    height:250px;
+ }

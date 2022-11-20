@@ -1,0 +1,6 @@
+.menu__item{
+   list-style: none;
+   position: relative;
+   bottom:50%;
+   margin-right: 10px;
+}

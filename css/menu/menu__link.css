@@ -1,0 +1,15 @@
+.menu__link{
+    font-family: 'Pacifico', cursive;
+    padding:4px;
+    font-size: 1.2rem;
+    color:#000000;;
+    text-decoration: none;
+    margin: 5rem 1rem;
+    border-radius: 10px;
+}
+
+.menu__link:hover{
+     border: 1px solid #000000;
+     background-color:#f1e7e6;
+     font-size: larger;
+}
