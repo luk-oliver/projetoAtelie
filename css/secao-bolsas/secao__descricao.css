@@ -1,7 +1,8 @@
 .secao__descricao{
+    font-size: 1.8rem;
     text-align: center;
     text-indent: 30px;
-    padding: 10px;
-    line-height: 1.5rem;
+    padding: 6px;
+    line-height: normal;
 }
 

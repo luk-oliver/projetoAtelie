@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/menu/menu__item.css">
     <link rel="stylesheet" href="./css/menu/menu__link.css">
     <link rel="stylesheet" href="./css/menu/menu__listas.css">
-    <link rel="stylesheet" href="./css/rodape.css">
+    
     
 </head>
 <body>
@@ -33,7 +33,7 @@
     </header>
     
 <main class="formulario">
-    <p class="titulo">Formulário</p>
+    <h2 class="titulo">Formulário</h2>
     <form class="secao__formulario">
     
         <label class="label" for="inome">Nome:</label>
@@ -48,29 +48,28 @@
         <label class="label" for="itelefone">Telefone de Contato:</label>
         <input type="tel" name="telefone" id="itelefone"  class="input" placeholder="(XX)XXXXX-XXXX">
 
-        <label for="Iarea">Mensagem</label>
+        <label class="label" for="Iarea">Mensagem</label>
         <textarea name="mensagem"  class="area" id="Iarea" cols="40" rows="10"></textarea>
 
         <fieldset class="campo">
             <legend class="legenda" >Como prefere o nosso contato?</legend>
-            <label for="radio-email"><input type="radio" class="radio" name="email" value="email" id="radio-email">Email</label>
+            
+            <label  class="label" for="radio-email"><input type="radio" class="radio" name="email" value="email" id="radio-email">Email</label>
            
-            <label for="radio-whatsApp"><input type="radio"  class="radio" name="whatsApp"  value="whatsApp" id="radio-whatsApp">WhatsApp</label>
+            <label  class="label" for="radio-whatsApp"><input type="radio"  class="radio" name="whatsApp"  value="whatsApp" id="radio-whatsApp">WhatsApp</label>
            
-            <label for="radio-telefone"><input type="radio"  class="radio" name="telefone" value="telefone" id="radio-telefone">Telefone</label>
+            <label  class="label" for="radio-telefone"><input type="radio"  class="radio" name="telefone" value="telefone" id="radio-telefone">Telefone</label>
            
         </fieldset>
-
-        
-        
-            <fieldset class="opcao">
-                <legend class="legenda">Qual o horário de Atendimento?</legend>
-                <select class="selecao">
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-            </fieldset>
+   
+        <fieldset class="opcao">
+            <legend class="legenda">Qual o horário de Atendimento?</legend>
+            <select class="selecao">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fieldset>
             <label for="info-chackbox" class="legenda"> <input type="checkbox" id="info-chackbox" class="caixa" checked>Gostaria de receber nossas novidades por WhatsApp?</label>
 
             <label for="info-checkbox" class="legenda" ><input type="checkbox" id="info-checkbox" class="caixa" >Gostaria de receber nossas novidades por Email?</label>

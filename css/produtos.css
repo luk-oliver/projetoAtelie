@@ -16,11 +16,13 @@ body{
 
 
 .cabecalho__produto{
+    width:100vw;
+    min-width: 490px;
     background-color: #ef666e;
-    display: flex;
     height: 300px;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -29,4 +31,19 @@ body{
     background-repeat: no-repeat;
     width:480px;
     height:250px;
+    margin: auto;
  }
+
+ .rodape{
+    background: url("../imagem/bg.jpg");
+    width: 100vw;
+    min-width: 500px;
+    height: 40px;
+    font-size:x-large;
+    padding: 20px 0; 
+    font-family: 'Pacifico', cursive;
+    font-size:larger;
+    text-align:center;
+    color: white;
+   
+}
