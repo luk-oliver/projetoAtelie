@@ -61,17 +61,3 @@ html, body{
     height:250px;
     margin: auto ;
 }
-
-.rodape{
-    background: url("../imagem/bg.jpg");
-    width: 100vw;
-    min-width: 500px;
-    height: 40px;
-    font-size:x-large;
-    padding: 20px 0; 
-    font-family: 'Pacifico', cursive;
-    font-size:larger;
-    text-align:center;
-    color: white;
-
-}
