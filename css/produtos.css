@@ -34,16 +34,16 @@ body{
     margin: auto;
  }
 
- .rodape{
-    background: url("../imagem/bg.jpg");
-    width: 100vw;
-    min-width: 500px;
-    height: 40px;
-    font-size:x-large;
-    padding: 20px 0; 
-    font-family: 'Pacifico', cursive;
-    font-size:larger;
-    text-align:center;
-    color: white;
-   
+ @media screen and (min-width:768px){
+    .cabecalho__produto{
+        flex-direction:row;
+        justify-content: space-between;
+       
+    }
+
+    .logo__imagem{
+
+        margin: 2rem;
+    }
 }
+ 

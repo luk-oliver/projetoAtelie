@@ -1,11 +1,11 @@
 .secao__botao{
     width: 100%;
     margin:auto;
-    padding: 15px;
+    padding: 5px;
     background: #ef666e;
     color:#f1e7e6;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: 1px solid #000000;
     border-radius: 10px;
 }
