@@ -1,8 +1,18 @@
 .secoes{
     background-color: #f1e7e6;
+    width: 100%;
     display: flex;
     flex-wrap: wrap; 
     
 }
 
+@media screen and (min-width:0px) and (max-width: 480px){
+    .secoes{
+        width: 100%;
+        flex-direction: column;
+       
+       
 
+     
+}
+}
