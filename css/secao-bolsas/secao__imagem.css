@@ -9,7 +9,7 @@
     background: url('')
 }
 
-@media screen and (min-width:300px) and (max-width: 480px){
+@media screen and (min-width:278px) and (max-width: 667px){
     .secao__imagem{
         width: 100%;
         margin:auto;

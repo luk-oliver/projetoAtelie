@@ -7,10 +7,10 @@
     width: 250px;
 }
 
-@media screen and (min-width:320px) and (max-width: 480px){
+@media screen and (min-width:278px) and (max-width: 667px){
     .secao1{
         width: 100%;
-        margin:auto;
-        margin-top:.5rem;
+        margin:0.5rem auto;
+     
 }
 }
