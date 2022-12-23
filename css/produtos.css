@@ -4,11 +4,11 @@
     padding: 0px;
 }
 
-body,html{
+ body,html{
     width:100vw;
     height: 100vh;
 
-}
+} 
 
 body{
     background: #fdfdfd;
@@ -16,12 +16,11 @@ body{
 
 
 .cabecalho__produto{
-    width:100vw;
-    min-width: 490px;
+    width:100vw;    
     background-color: #ef666e;
     height: 300px;
-    align-items: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
 
 }
@@ -29,12 +28,12 @@ body{
 .logo__imagem{
     background-image: url('../imagem/logo12.png');
     background-repeat: no-repeat;
-    width:480px;
+    width:460px;
     height:250px;
     margin: auto;
  }
 
- @media screen and (min-width:768px){
+ @media screen and (min-width:992px){
     .cabecalho__produto{
         flex-direction:row;
         justify-content: space-between;
@@ -43,7 +42,7 @@ body{
 
     .logo__imagem{
 
-        margin: 2rem;
+        margin: 1rem;
     }
 }
  

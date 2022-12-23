@@ -1,11 +1,15 @@
 .secao1{
    background: #fdfdfd;
     display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
+    flex-direction: column; 
+    margin-right: .5rem; 
     padding: 1rem;
-    width: 250px;    
-   
-   
-   
+    width: 250px;
+}
+
+@media screen and (min-width:300px) and (max-width: 480px){
+    .secao1{
+        width: 100%;
+        margin:auto;
+}
 }

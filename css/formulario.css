@@ -12,13 +12,13 @@ html, body{
 
 .cabecalho__formulario{
     width:100vw;
-    min-width:490px;
+     min-width:490px; 
     background-color: #ef666e;
-    height: 280px;
+    height: 300px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+   
 }
 
 .logo__imagem{
@@ -26,7 +26,7 @@ html, body{
      background-repeat: no-repeat;
      width:480px;
      height:220px;
-     margin:auto;
+     /* margin:auto; */
      
  }
 
@@ -87,7 +87,7 @@ margin-bottom: .5rem;
 }
 .radio{
     margin: 1rem 0.4rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
 }
 
 .legenda{
@@ -110,5 +110,74 @@ margin-bottom: .5rem;
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+}
+
+
+@media screen and (min-width:992px){
+    .cabecalho__formulario{
+        flex-direction:row;
+        justify-content: space-between;
+           
+    }
+
+    .titulo{
+        font-weight: normal;
+    }
+    .logo__imagem{
+
+        margin: 1rem;
+    }
+
+    .input{
+        width:50%;
+    }
+
+    .area{
+        width: 50%;
+    }
+
+    .campo{
+        justify-content: flex-start;
+    
+    }
+
+    .label{
+        margin-right: 2rem;
+    }
+
+    .submeter{
+        width: 30%;
+        margin-left: 2rem;  
+  }
+}
+
+@media screen and (min-width: 992px){
+    .cabecalho__formulario{
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    
+    .logo__imagem{
+
+        margin: 1rem;
+    }
+
+    .area{
+        width: 50%;
+    }
+
+    .campo{
+        justify-content: flex-start;
+    
+    }
+
+
+    .submeter{
+        width: 30%;
+        margin-left: 2rem;  
+  }
 }
 

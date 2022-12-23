@@ -8,3 +8,10 @@
 .secao__imagem:before{
     background: url('')
 }
+
+@media screen and (min-width:300px) and (max-width: 480px){
+    .secao__imagem{
+        width: 100%;
+       margin:auto;
+}
+}

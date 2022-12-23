@@ -11,7 +11,7 @@ html, body{
 
 .cabecalho{ 
     width:100vw;
-    min-width: 490px;
+    min-width: 480px;
     background-color: #ef666e;
     height: 300px;
     align-items: center;
@@ -45,12 +45,12 @@ html, body{
 }
 
 .secao__descricao{
-    height: 90%;
+    height: auto;
     font-size: 1.2rem;
     text-align: justify;
     text-indent: 2rem;
-    padding: 10px;
-    line-height: 1.5rem;
+    /* padding: 10px; */
+    line-height: 2rem;
 }
 
 .logo__imagem{
@@ -61,7 +61,7 @@ html, body{
     margin: auto;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:992px){
     .cabecalho{
         flex-direction:row;
         justify-content: space-between;
@@ -71,5 +71,9 @@ html, body{
     .logo__imagem{
 
         margin: 2rem;
+    }
+
+    .secao__descricao{
+        margin:auto;
     }
 }
