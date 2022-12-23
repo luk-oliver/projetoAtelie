@@ -10,8 +10,10 @@
 @media screen and (min-width:278px) and (max-width: 667px){
     .secao1{
         width: 100%;
+        display: inline-block;
+        margin:auto;
         margin-top:0.5rem;
-        justify-items: center;
+       
 
      
 }
