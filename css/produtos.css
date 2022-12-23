@@ -16,7 +16,8 @@ body{
 
 
 .cabecalho__produto{
-    width:100vw;    
+    width:100vw;
+    min-width: 490px;    
     background-color: #ef666e;
     height: 300px;
     display: flex;
