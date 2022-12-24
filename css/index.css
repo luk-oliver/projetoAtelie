@@ -13,7 +13,7 @@
 .cabecalho{ 
     display: flex;
     width: 100vw;
-    min-width: 480px;
+    min-width: 490px;
     background: #ef666e;
     height: auto;
     align-items: center;
@@ -23,7 +23,7 @@
 .logo__imagem{
    background-image: url('../imagem/logo12.png');
     background-repeat: no-repeat;
-    width:460px;
+    width: 490px;
     height:220px;
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@
     font-size: 1.2rem;
     text-align: justify;
     text-indent: 2rem;
-     padding: 10px; 
+     padding: 2rem; 
     line-height: 2rem;
 }
 
