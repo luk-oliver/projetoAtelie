@@ -68,7 +68,8 @@ html, body{
     .rodape{
         flex-direction:row;
         justify-content: space-between;
-        padding: 0 2rem;
+        margin-top:60px;
+        
     }
 
     .rodape__midia{

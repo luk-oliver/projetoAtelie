@@ -30,8 +30,8 @@
 .secao{
     width: 100%;
     min-width: 490px; 
+    margin: auto;
     height: auto;
-    padding: .5rem;
     text-align: center;
     
  }
