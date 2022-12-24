@@ -15,7 +15,7 @@
     width: 100vw;
     min-width: 490px;
     background: #ef666e;
-    height: auto;
+    height: 300px;
     align-items: center;
     flex-direction: column;     
 }
@@ -23,9 +23,9 @@
 .logo__imagem{
    background-image: url('../imagem/logo12.png');
     background-repeat: no-repeat;
-    width: 490px;
-    height:220px;
-    margin: 0 auto;
+    width: 460px;
+    height:250px;
+    margin: auto;
 }
 .secao{
     width: 100%;
