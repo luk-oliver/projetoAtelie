@@ -11,7 +11,7 @@ html, body{
 
 .rodape{
     background: url("../imagem/bg.jpg");
-    width: 100vw;
+    width: 100%;
     min-width:490px; 
     display: flex;
     flex-direction: column;
