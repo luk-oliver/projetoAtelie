@@ -1,6 +1,9 @@
 .menu__listas{
      display: flex; 
      margin: 3rem auto 0 ;
-     
-   
+}
+
+@media screen and (min-width:768px){
+    .menu__listas{
+     margin-right: 2rem;} 
 }
