@@ -1,4 +1,6 @@
 .menu__listas{
-    display: flex;
+     display: flex; 
+     margin: 3rem auto 0 ;
+     
    
 }

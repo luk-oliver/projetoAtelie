@@ -3,9 +3,9 @@
     font-size: 1.4rem;
     color:#000000;;
     text-decoration: none;
-    margin: 5rem 1rem;
+    margin: 0 1rem;
     border-radius: 10px;
-    padding: 8px;
+    padding: 5px;
 }
 
 .menu__link:hover{

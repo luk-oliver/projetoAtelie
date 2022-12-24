@@ -12,12 +12,13 @@ html, body{
 .rodape{
     background: url("../imagem/bg.jpg");
     width: 100vw;
-    min-width:490px;
+    /* min-width:450px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     font-size:1.2rem;
+
     color: white;
     
 
@@ -30,7 +31,7 @@ html, body{
 
 .rodape__midia {
     display: block;
-    margin: 0 2rem;
+    margin: 0 .5rem;
 }
  .rodape__imagem{
     width: 25px;
@@ -41,12 +42,12 @@ html, body{
 .rodape__navegacao {
     text-align: center;
    
-    line-height: 3;
+    line-height: 2;
 }
 
 .rodape__item{
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 .5rem;
    
 }
 
