@@ -1,20 +1,23 @@
 .secao1{
-   background: #fdfdfd;
+    background: #fdfdfd;
+    width: 185px;
     display: flex;
     flex-direction: column; 
     margin-right: .5rem; 
-    padding: 1rem;
-    width: 250px;
+    padding: 1.01rem;
+   
 }
 
-@media screen and (min-width:0px) and (max-width: 768px){
+ @media screen and (min-width: 320px) and (max-width: 480px){
     .secao1{
-        width: 100%;
-        min-width: 380px;
-        margin:0.5rem auto;
-       
-       
+        width: 124%;
+        margin:0.5rem auto;     
+    }
+} 
 
-     
-}
-}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .secao1{
+        width: 80%;
+        margin:0.5rem auto;     
+    }
+} 

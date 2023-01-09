@@ -6,13 +6,9 @@
     
 }
 
-@media screen and (min-width:0px) and (max-width: 480px){
+@media screen and (min-width:0px) and (max-width: 372px){
     .secoes{
-        width: 100%;
         flex-direction: column;
-       
-       
-
      
-}
+    }
 }

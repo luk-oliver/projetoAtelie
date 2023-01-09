@@ -5,3 +5,10 @@
     padding: 6px;
     line-height: normal;
 }
+
+/* @media screen and (min-width:320px) and (max-width: 480px){
+    .secao__descricao{
+        width:100%;
+            
+    }
+}  */
