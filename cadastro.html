@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet"> 
+    <link href="./css/normalize.css" rel="stylesheet"> 
+    <link href="./css/formulario.css" rel="stylesheet" >
+    <link href="./css/menu/menu.css" rel="stylesheet" >
+    <link href="./css/menu/menu__item.css" rel="stylesheet">
+    <link href="./css/menu/menu__link.css" rel="stylesheet"> 
+    <link href="./css/menu/menu__listas.css" rel="stylesheet">
+    <link href="./css/rodape.css" rel="stylesheet">
+    <link href="./css/cadastro.css" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <header class="cabecalho__formulario">
+            <div class="logo__imagem" >  </div>
+            <nav class="menu">
+                <ul class="menu__listas">
+                    <li class="menu__item"><a href="index.html" class="menu__link">Início</a> </li>
+                    <li class="menu__item"><a href="produtos.html"  target="_blank" class="menu__link">Produtos</a></li>
+                    <li class="menu__item"><a href="form.html" class="menu__link">Contatos</a></li>
+                    <li class="menu__item"><a href="cadastro.html" class="menu__link">Faça seu cadastro</a></li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+
+    <main class="cartao">
+        <h2>Complete seu Cadastro</h2>
+        <section class="secao_cadastro">
+            <form action="./cadastro_concluido.html" class="cartao_cadastro">
+                <fieldset>
+                    <legend>Informações básicas</legend>
+                    <div class="input_container">
+                         <label class="label" for="iname">Nome completo</label>
+                        <input type="text" id="iname" name="nome" placeholder="Nome" requerid>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                       
+                    </div>
+                    <div class="input_container">
+                        <label class="label" for="iemail">Digite seu email</label>
+                        <input type="email" id="iemail" name="email" placeholder="email" requerid>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                        
+                    </div>
+                    <div class="input_container">
+                        <label class="label" for="isenha">Crie uma senha</label>
+                        <input type="text" id="isenha" name="nome" placeholder="Senha" data-tipo="senha" pattern="^(?=.*[A-Z])(?=.*[a-z])(?!.*[ @#$&*+-]).{6,8}" requerid>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                        
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informaçoes Pessoas</legend>
+
+                    <div class="input_container"> 
+                        <label for="idate" class="label">Data de nascimento</label>
+                        <input type="date" id="idate" name="date" placeholder="data de nascimento" data-tipo="data" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+
+                    <div class="input_container">
+                        <label for="icpf"  class="label">Digite seu cpf</label>
+                        <input type="text" id="icpf" name="cpf" placeholder="cpf" data-tipo="cpf" requerid>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                </fieldset>
+
+                <fieldset> 
+                    <legend>Endereço</legend>
+
+                    <div class="input_container"> 
+                        <label for="iCEP" class="input_container">digite seu CEP</label>
+                        <input type="text" id="iCEP" name="cep" placeholder="CEP" data-tipo="cep" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+
+                    <div class="input_container"> 
+                        <label for="logradouro" class="input_container">Rua:</label>
+                        <input type="text" id="logradouro" name="logradouro" placeholder="Rua" data-tipo="logradouro" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+ 
+                    <div class="input_container"> 
+                        <label for="cidade" class="input_container">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Cidade" data-tipo="cidade" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+
+                    <div class="input_container"> 
+                        <label for="estado" class="input_container">Estado</label>
+                        <input type="text" id="estado" name="estado" placeholder="Estado" data-tipo="estado" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                </fieldset>
+                <button class="botao">Cadastrar</a>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy;Bruna Andrades Atelié</p>
+        <ul class="rodape__social">
+            <li class="rodape__midia"><a href="#"> <img class="rodape__imagem" src="imagem/facebook.png" alt="icone do facebook"></a></li>
+            <li class="rodape__midia"><a href="#"> <img class="rodape__imagem" src="imagem/twitter.png" alt="Icone do twitter"></a></li>
+            <li class="rodape__midia"><a href="#"> <img class="rodape__imagem" src="imagem/instagram.png" alt="Icone do Instagram"> </a></li>
+        </ul>
+        
+    <nav class="rodape__navegacao">
+        <ul>
+            <li class="rodape__item"><a href="#"class="rodape__link">Início</a></li>
+            <li class="rodape__item"><a href="#"class="rodape__link">Produtos</a></li>
+            <li class="rodape__item"><a href="#" class="rodape__link">Contato</a></li>
+            <li class="rodape__item"><a href="#" class="rodape__link">Faça seu cadastro</a></li>
+                        
+        </ul>
+    </nav>
+</body>
+</html>

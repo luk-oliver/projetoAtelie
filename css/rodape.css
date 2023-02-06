@@ -12,7 +12,7 @@ html, body{
 .rodape{
     background: url("../imagem/bg.jpg");
     width: 100vw;
-    min-width:490px; 
+    min-width:500px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +54,7 @@ html, body{
 
 .rodape__link { 
     font-size: 1.2rem;
-    margin: 0 .5rem .7rem; 
+    margin: 0 1.5rem .7rem; 
     text-decoration: none;
     color:#fff;
     cursor:pointer;
@@ -65,10 +65,11 @@ html, body{
 }
 
 @media screen and (min-width:768px){
+   
     .rodape{
         flex-direction:row;
         justify-content: space-between;
-        margin-top:60px;
+        
         
     }
 

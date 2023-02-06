@@ -1,0 +1,65 @@
+*{
+    font-family:'Pacifico', cursive;
+    border: 0px;
+    padding: 0px; 
+    
+}
+
+html, body{
+    height:100vh;
+    width: 100vw;
+}
+
+.cartao{
+background: #fff;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.cartao_cadastro{
+ margin-top: 2rem;
+ 
+
+}
+
+legend{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.input_container{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 40%;
+}
+
+input{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+.input-mensagem-erro{
+    display: none;
+}
+.botao{
+    width: 30%;
+	padding: .5rem 0;
+    margin: 3rem;
+	background:#f3e35e;
+	color: #000000;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
