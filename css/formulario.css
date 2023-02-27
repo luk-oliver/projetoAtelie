@@ -65,8 +65,10 @@ html, body{
 width: 80%;
 height: 2.75rem;
 margin-bottom: .5rem;
- 
+}
 
+.input-mensagem-erro{
+    display: none;
 }
 .area{
      width: 80%;

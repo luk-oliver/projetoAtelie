@@ -1,3 +1,7 @@
+:root{
+    --cor-aviso: #df2525;
+}
+
 *{
     font-family:'Pacifico', cursive;
     border: 0px;
@@ -43,14 +47,34 @@ input{
     border: 1px solid black;
     width: 100%;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
 
+.input-container--invalido .input {
+    border: 1px solid var(--cor-aviso);
+    border-radius: 7px;
+}
+
+.input-container--invalido .label {
+    color: var(--cor-aviso);
+}
 
 .input-mensagem-erro{
     display: none;
 }
+
+.input-container--invalido .input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
 .botao{
     width: 30%;
 	padding: .5rem 0;
